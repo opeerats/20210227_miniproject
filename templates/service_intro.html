@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>service_intro</title>
+</head>
+<body>
+  <!-- 이하 nav -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- navbar 예시를 가져와서 배경과 글씨의 색상을 바꿨다 -->
+    <div class="container-fluid">
+      
+      <a class="navbar-brand" href="home.html">cire</a>
+      <!-- logo이미지의 크기는 10rem으로 고정 -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <!--  메뉴들 오른쪽으로 가도록 justify-content-end -->
+        <!-- d-flex까지하면 햄버거의 메뉴들이 오른쪽으로 정렬 -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <!-- me-auto를 없애서 오른쪽으로 가도록 -->
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+            <!-- 홈에는 강조, 각 href에 링크 삽입 -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="service_intro.html">service_intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">service</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!-- 까지 nav --> 
+  <div class="border border-light w-50 h-50 position-absolute top-50 start-50 translate-middle d-flex flex-column">
+    <img src="static/images/kakaotalk.png" alt="kakaotalk.png">
+    
+    <button type="button" class="btn btn-primary btn-lg">메뉴 추천 받으러 가기</button>
+  </div>
+
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
